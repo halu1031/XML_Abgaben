@@ -1,0 +1,121 @@
+:root {
+    --primary-color: #000000;
+    --secondary-color: #ffffff;
+    --font-color: #000000;
+    --highlight-color: #ff5722;
+    --spacing: 1rem;
+}
+
+kochbuch {
+    display: block;
+    font-family: Arial, sans-serif;
+    background-color: var(--secondary-color);
+    color: var(--font-color);
+    padding: var(--spacing);
+}
+
+rezept {
+    display: block;
+    border: 1px solid var(--primary-color);
+    background-color: white;
+    padding: var(--spacing);
+    margin-bottom: calc(var(--spacing) * 2);
+    transition: transform 0.3s ease;
+}
+
+rezept:hover {
+    transform: scale(1.005);
+}
+
+portionen,
+gesamtkochzeit,
+schwierigkeitsgrad {
+    display: block;
+}
+
+portionen::before {
+    content: "Portionen: ";
+}
+
+arbeitszeit::before {
+    content: "Arbeitszeit: ";
+}
+
+arbeitszeit {
+    display: block;
+    content: " (" attr(data-unit) ")";
+}
+
+gesamtkochzeit::before {
+    content: "Gesamtkochzeit: ";
+}
+
+schwierigkeitsgrad::before {
+    content: "Schwierigkeitsgrad: ";
+}
+
+rezept>name {
+    display: block;
+    font-size: 1.5em;
+    color: var(--primary-color);
+    margin-bottom: var(--spacing);
+}
+
+name {
+    display: block;
+    color: var(--primary-color);
+    margin-bottom: var(--spacing);
+}
+
+beschreibung {
+    display: block;
+    font-style: italic;
+    margin-bottom: var(--spacing);
+}
+
+bild {
+    display: block;
+    margin: var(--spacing) auto;
+    max-width: 100%;
+}
+
+zutaten,
+zubereitung {
+    margin: var(--spacing) 0;
+    display: block;
+}
+
+zutaten::before {
+    content: "Zutaten: ";
+    font-weight: bold;
+}
+
+zutat,
+menge,
+einheit,
+name {
+    display: inline;
+}
+
+zutat::after {
+    content: ", ";
+}
+
+zubereitung schritt {
+    counter-increment: step-counter;
+    position: relative;
+    display: block;
+}
+
+zubereitung schritt::before {
+    content: "Schritt " counter(step-counter) ": ";
+    font-weight: bold;
+    color: var(--highlight-color);
+}
+
+abschlusshinweise {
+    display: block;
+    font-weight: lighter;
+    color: var(--highlight-color);
+    margin-top: calc(var(--spacing) * 2);
+}

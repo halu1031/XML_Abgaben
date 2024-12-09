@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Adressbuch xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="adressbuch_schema.xsd">
+    <Kontakt>
+        <Vorname>Max</Vorname>
+        <Nachname>Mustermann</Nachname>
+        <Strasse>Musterstrasse</Strasse>
+        <Hausnummer>1</Hausnummer>
+        <PLZ>12345</PLZ>
+        <Ort>Musterstadt</Ort>
+        <Telefonnummer>01234 345345</Telefonnummer>
+        <Email>max.mustermann@h-ka.de</Email>
+        <Kommentar>Kollege aus der Uni</Kommentar>
+    </Kontakt>
+    <Kontakt>
+        <Vorname>Anna</Vorname>
+        <Nachname>Musterfrau</Nachname>
+        <Strasse>Beispielweg</Strasse>
+        <Hausnummer>23</Hausnummer>
+        <PLZ>54321</PLZ>
+        <Ort>Beispielstadt</Ort>
+        <Telefonnummer>01234 234234</Telefonnummer>
+        <Email>anna.musterfrau@h-ka.de</Email>
+        <Kommentar>Freundin aus dem Verein</Kommentar>
+    </Kontakt>
+    <Kontakt>
+        <Vorname>Peter</Vorname>
+        <Nachname>Petersen</Nachname>
+        <Strasse>Hauptstrasse</Strasse>
+        <Hausnummer>100</Hausnummer>
+        <PLZ>67890</PLZ>
+        <Ort>Hauptstadt</Ort>
+        <Telefonnummer>01234 123123</Telefonnummer>
+        <Email>peter.petersen@h-ka.de</Email>
+        <Kommentar>Arbeitskollege</Kommentar>
+    </Kontakt>
+</Adressbuch>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="kochbuch">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="rezept" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string" />
+                            <xs:element name="beschreibung" type="xs:string" />
+                            <xs:element name="bild" type="xs:string" />
+                            <xs:element name="portionen" type="xs:int" />
+                            <xs:element name="arbeitszeit" type="xs:string" />
+                            <xs:element name="gesamtkochzeit" type="xs:string" />
+                            <xs:element name="schwierigkeitsgrad" type="xs:string" />
+                            <xs:element name="zutaten">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="zutat" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="menge" type="xs:decimal" />
+                                                    <xs:element name="einheit" type="xs:string" />
+                                                    <xs:element name="name" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="zubereitung">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="schritt" type="xs:string"
+                                            maxOccurs="unbounded" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="abschlusshinweise" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

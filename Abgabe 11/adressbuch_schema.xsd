@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="Adressbuch">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Kontakt" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Vorname" type="xs:string"/>
+                            <xs:element name="Nachname" type="xs:string"/>
+                            <xs:element name="Strasse" type="xs:string"/>
+                            <xs:element name="Hausnummer" type="xs:string"/>
+                            <xs:element name="PLZ" type="xs:string"/>
+                            <xs:element name="Ort" type="xs:string"/>
+                            <xs:element name="Telefonnummer" type="xs:string"/>
+                            <xs:element name="Email" type="xs:string"/>
+                            <xs:element name="Kommentar" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

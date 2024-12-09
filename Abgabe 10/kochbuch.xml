@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="10_2.xsl"?>
+<kochbuch>
+    <rezept>
+        <name>Rührei mit Hüttenkäse</name>
+        <beschreibung>Proteinreiches Frühstück mit cremigem Hüttenkäse.</beschreibung>
+        <bild>img.jpg</bild>
+        <portionen>1</portionen>
+        <arbeitszeit>5 Minuten</arbeitszeit>
+        <gesamtkochzeit>10 Minuten</gesamtkochzeit>
+        <schwierigkeitsgrad>Einfach</schwierigkeitsgrad>
+        <zutaten>
+            <zutat>
+                <menge>2</menge>
+                <einheit>Stück</einheit>
+                <name>Eier</name>
+            </zutat>
+            <zutat>
+                <menge>100</menge>
+                <einheit>g</einheit>
+                <name>Hüttenkäse</name>
+            </zutat>
+            <zutat>
+                <menge>1</menge>
+                <einheit>Prise</einheit>
+                <name>Salz</name>
+            </zutat>
+            <zutat>
+                <menge>1</menge>
+                <einheit>Prise</einheit>
+                <name>Pfeffer</name>
+            </zutat>
+            <zutat>
+                <menge>1</menge>
+                <einheit>TL</einheit>
+                <name>Butter</name>
+            </zutat>
+        </zutaten>
+        <zubereitung>
+            <schritt>Butter in einer Pfanne schmelzen lassen.</schritt>
+            <schritt>Eier in die Pfanne schlagen und unter Rühren garen.</schritt>
+            <schritt>Hüttenkäse untermischen und mit Salz und Pfeffer abschmecken.</schritt>
+        </zubereitung>
+        <abschlusshinweise>Sofort servieren, eventuell mit frischen Kräutern garnieren.</abschlusshinweise>
+    </rezept>
+
+    <rezept>
+        <name>Thunfischsalat mit Quark</name>
+        <beschreibung>Leichter und proteinreicher Thunfischsalat.</beschreibung>
+        <bild>img.jpg</bild>
+        <portionen>1</portionen>
+        <arbeitszeit>5 Minuten</arbeitszeit>
+        <gesamtkochzeit>5 Minuten</gesamtkochzeit>
+        <schwierigkeitsgrad>Einfach</schwierigkeitsgrad>
+        <zutaten>
+            <zutat>
+                <menge>1</menge>
+                <einheit>Dose</einheit>
+                <name>Thunfisch im eigenen Saft</name>
+            </zutat>
+            <zutat>
+                <menge>100</menge>
+                <einheit>g</einheit>
+                <name>Magerquark</name>
+            </zutat>
+            <zutat>
+                <menge>1</menge>
+                <einheit>Stück</einheit>
+                <name>Tomate</name>
+            </zutat>
+            <zutat>
+                <menge>1</menge>
+                <einheit>Prise</einheit>
+                <name>Salz</name>
+            </zutat>
+            <zutat>
+                <menge>1</menge>
+                <einheit>Prise</einheit>
+                <name>Pfeffer</name>
+            </zutat>
+        </zutaten>
+        <zubereitung>
+            <schritt>Thunfisch abtropfen lassen und in eine Schüssel geben.</schritt>
+            <schritt>Magerquark und gewürfelte Tomate hinzufügen.</schritt>
+            <schritt>Mit Salz und Pfeffer abschmecken und alles gut verrühren.</schritt>
+        </zubereitung>
+        <abschlusshinweise>Kalt genießen, ideal für zwischendurch.</abschlusshinweise>
+    </rezept>
+
+    <rezept>
+        <name>Hähnchenbrust mit Brokkoli</name>
+        <beschreibung>Gesunde und proteinreiche Mahlzeit mit Hähnchen und Brokkoli.</beschreibung>
+        <bild>img.jpg</bild>
+        <portionen>1</portionen>
+        <arbeitszeit>10 Minuten</arbeitszeit>
+        <gesamtkochzeit>20 Minuten</gesamtkochzeit>
+        <schwierigkeitsgrad>Mittel</schwierigkeitsgrad>
+        <zutaten>
+            <zutat>
+                <menge>150</menge>
+                <einheit>g</einheit>
+                <name>Hähnchenbrustfilet</name>
+            </zutat>
+            <zutat>
+                <menge>200</menge>
+                <einheit>g</einheit>
+                <name>Brokkoli</name>
+            </zutat>
+            <zutat>
+                <menge>1</menge>
+                <einheit>EL</einheit>
+                <name>Olivenöl</name>
+            </zutat>
+            <zutat>
+                <menge>1</menge>
+                <einheit>Prise</einheit>
+                <name>Salz</name>
+            </zutat>
+            <zutat>
+                <menge>1</menge>
+                <einheit>Prise</einheit>
+                <name>Pfeffer</name>
+            </zutat>
+        </zutaten>
+        <zubereitung>
+            <schritt>Hähnchenbrust mit Salz und Pfeffer würzen.</schritt>
+            <schritt>Olivenöl in einer Pfanne erhitzen und Hähnchenbrust anbraten, bis sie
+                durchgegart ist.</schritt>
+            <schritt>Brokkoli in Salzwasser kochen, bis er bissfest ist.</schritt>
+            <schritt>Hähnchen und Brokkoli auf einem Teller anrichten.</schritt>
+        </zubereitung>
+        <abschlusshinweise>Perfekt mit einer Zitronenscheibe und frischen Kräutern.</abschlusshinweise>
+    </rezept>
+</kochbuch>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Buch xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xsi:noNamespaceSchemaLocation="book_schema.xsd" genre="Philosophischer Roman">
+    <Titel>Café am Rande der Welt</Titel>
+    <Autoren>
+        <Autor>John Strelecky</Autor>
+    </Autoren>
+    <Erscheinungsjahr>2003</Erscheinungsjahr>
+    <ISBN>978-3-442-39321-0</ISBN>
+    <Seitenzahl>128</Seitenzahl>
+    <Zusammenfassung>
+        Das Buch erzählt die Geschichte von John, der in einem kleinen <b>Café</b> landet,
+        das ihm hilft, Antworten auf drei wichtige Fragen zu finden: 
+        Warum bist du hier? Hast du Angst vor dem Tod? Führst du ein erfülltes Leben? 
+        Diese Fragen regen zum <i>Nachdenken</i> über den Sinn des Lebens an.
+    </Zusammenfassung>
+</Buch>

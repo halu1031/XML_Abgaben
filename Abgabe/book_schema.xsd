@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Definition des Wurzelelements "Buch" -->
+  <xs:element name="Buch">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Titel" type="xs:string"/>
+        <xs:element name="Autoren">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Autor" type="xs:string" maxOccurs="unbounded"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Erscheinungsjahr" type="xs:string"/>
+        <xs:element name="ISBN" type="xs:string"/>
+        <xs:element name="Seitenzahl" type="xs:string"/>
+        <xs:element name="Zusammenfassung">
+          <xs:complexType mixed="true">
+            <xs:choice maxOccurs="unbounded">
+              <xs:element name="b" type="xs:string"/>
+              <xs:element name="i" type="xs:string"/>
+            </xs:choice>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <!-- Genre als Attribut, das erforderlich ist -->
+      <xs:attribute name="genre" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
