@@ -1,10 +1,9 @@
-<?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="10_2.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <kochbuch>
     <rezept>
         <name>Rührei mit Hüttenkäse</name>
         <beschreibung>Proteinreiches Frühstück mit cremigem Hüttenkäse.</beschreibung>
-        <bild>img.jpg</bild>
+        <bild>ruehrei_huettenkaese.jpg</bild>
         <portionen>1</portionen>
         <arbeitszeit>5 Minuten</arbeitszeit>
         <gesamtkochzeit>10 Minuten</gesamtkochzeit>
@@ -47,7 +46,7 @@
     <rezept>
         <name>Thunfischsalat mit Quark</name>
         <beschreibung>Leichter und proteinreicher Thunfischsalat.</beschreibung>
-        <bild>img.jpg</bild>
+        <bild>thunfischsalat_quark.jpg</bild>
         <portionen>1</portionen>
         <arbeitszeit>5 Minuten</arbeitszeit>
         <gesamtkochzeit>5 Minuten</gesamtkochzeit>
@@ -90,7 +89,7 @@
     <rezept>
         <name>Hähnchenbrust mit Brokkoli</name>
         <beschreibung>Gesunde und proteinreiche Mahlzeit mit Hähnchen und Brokkoli.</beschreibung>
-        <bild>img.jpg</bild>
+        <bild>haehnchen_brokkoli.jpg</bild>
         <portionen>1</portionen>
         <arbeitszeit>10 Minuten</arbeitszeit>
         <gesamtkochzeit>20 Minuten</gesamtkochzeit>
@@ -124,8 +123,7 @@
         </zutaten>
         <zubereitung>
             <schritt>Hähnchenbrust mit Salz und Pfeffer würzen.</schritt>
-            <schritt>Olivenöl in einer Pfanne erhitzen und Hähnchenbrust anbraten, bis sie
-                durchgegart ist.</schritt>
+            <schritt>Olivenöl in einer Pfanne erhitzen und Hähnchenbrust anbraten, bis sie durchgegart ist.</schritt>
             <schritt>Brokkoli in Salzwasser kochen, bis er bissfest ist.</schritt>
             <schritt>Hähnchen und Brokkoli auf einem Teller anrichten.</schritt>
         </zubereitung>
