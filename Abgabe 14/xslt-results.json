@@ -1,0 +1,129 @@
+[
+        {
+                "name": "Rührei mit Hüttenkäse",
+                "beschreibung": "Proteinreiches Frühstück mit cremigem Hüttenkäse.",
+                "bild": "ruehrei_huettenkaese.jpg",
+                "portionen": "1",
+                "arbeitszeit": "5 Minuten",
+                "gesamtkochzeit": "10 Minuten",
+                "schwierigkeitsgrad": "Einfach",
+                "zutaten": [
+                        {
+                                "menge": "2",
+                                "einheit": "Stück",
+                                "name": "Eier"
+                        },
+                        {
+                                "menge": "100",
+                                "einheit": "g",
+                                "name": "Hüttenkäse"
+                        },
+                        {
+                                "menge": "1",
+                                "einheit": "Prise",
+                                "name": "Salz"
+                        },
+                        {
+                                "menge": "1",
+                                "einheit": "Prise",
+                                "name": "Pfeffer"
+                        },
+                        {
+                                "menge": "1",
+                                "einheit": "TL",
+                                "name": "Butter"
+                        }
+                ],
+                "zubereitung": [
+                        "Butter in einer Pfanne schmelzen lassen.",
+                        "Eier in die Pfanne schlagen und unter Rühren garen.",
+                        "Hüttenkäse untermischen und mit Salz und Pfeffer abschmecken."
+                ],
+                "abschlusshinweise": "Sofort servieren, eventuell mit frischen Kräutern garnieren."
+        },
+        {
+                "name": "Thunfischsalat mit Quark",
+                "beschreibung": "Leichter und proteinreicher Thunfischsalat.",
+                "bild": "thunfischsalat_quark.jpg",
+                "portionen": "1",
+                "arbeitszeit": "5 Minuten",
+                "gesamtkochzeit": "5 Minuten",
+                "schwierigkeitsgrad": "Einfach",
+                "zutaten": [
+                        {
+                                "menge": "1",
+                                "einheit": "Dose",
+                                "name": "Thunfisch im eigenen Saft"
+                        },
+                        {
+                                "menge": "100",
+                                "einheit": "g",
+                                "name": "Magerquark"
+                        },
+                        {
+                                "menge": "1",
+                                "einheit": "Stück",
+                                "name": "Tomate"
+                        },
+                        {
+                                "menge": "1",
+                                "einheit": "Prise",
+                                "name": "Salz"
+                        },
+                        {
+                                "menge": "1",
+                                "einheit": "Prise",
+                                "name": "Pfeffer"
+                        }
+                ],
+                "zubereitung": [
+                        "Thunfisch abtropfen lassen und in eine Schüssel geben.",
+                        "Magerquark und gewürfelte Tomate hinzufügen.",
+                        "Mit Salz und Pfeffer abschmecken und alles gut verrühren."
+                ],
+                "abschlusshinweise": "Kalt genießen, ideal für zwischendurch."
+        },
+        {
+                "name": "Hähnchenbrust mit Brokkoli",
+                "beschreibung": "Gesunde und proteinreiche Mahlzeit mit Hähnchen und Brokkoli.",
+                "bild": "haehnchen_brokkoli.jpg",
+                "portionen": "1",
+                "arbeitszeit": "10 Minuten",
+                "gesamtkochzeit": "20 Minuten",
+                "schwierigkeitsgrad": "Mittel",
+                "zutaten": [
+                        {
+                                "menge": "150",
+                                "einheit": "g",
+                                "name": "Hähnchenbrustfilet"
+                        },
+                        {
+                                "menge": "200",
+                                "einheit": "g",
+                                "name": "Brokkoli"
+                        },
+                        {
+                                "menge": "1",
+                                "einheit": "EL",
+                                "name": "Olivenöl"
+                        },
+                        {
+                                "menge": "1",
+                                "einheit": "Prise",
+                                "name": "Salz"
+                        },
+                        {
+                                "menge": "1",
+                                "einheit": "Prise",
+                                "name": "Pfeffer"
+                        }
+                ],
+                "zubereitung": [
+                        "Hähnchenbrust mit Salz und Pfeffer würzen.",
+                        "Olivenöl in einer Pfanne erhitzen und Hähnchenbrust anbraten, bis sie durchgegart ist.",
+                        "Brokkoli in Salzwasser kochen, bis er bissfest ist.",
+                        "Hähnchen und Brokkoli auf einem Teller anrichten."
+                ],
+                "abschlusshinweise": "Perfekt mit einer Zitronenscheibe und frischen Kräutern."
+        }
+]

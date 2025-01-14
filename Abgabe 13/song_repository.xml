@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Song Liste.xsl"?>
+<SongRepository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="song_repository.xsd">
+    <Song>
+        <Titel>Imagine</Titel>
+        <Interpret>John Lennon</Interpret>
+        <Album>Imagine</Album>
+        <Erscheinungsjahr>1971</Erscheinungsjahr>
+    </Song>
+    <Song>
+        <Titel>Bohemian Rhapsody</Titel>
+        <Interpret>Queen</Interpret>
+        <Album>A Night at the Opera</Album>
+        <Erscheinungsjahr>1975</Erscheinungsjahr>
+    </Song>
+    <Song>
+        <Titel>Hotel California</Titel>
+        <Interpret>The Eagles</Interpret>
+        <Album>Hotel California</Album>
+        <Erscheinungsjahr>1976</Erscheinungsjahr>
+    </Song>
+    <Song>
+        <Titel>Billie Jean</Titel>
+        <Interpret>Michael Jackson</Interpret>
+        <Album>Thriller</Album>
+        <Erscheinungsjahr>1982</Erscheinungsjahr>
+    </Song>
+    <Song>
+        <Titel>Like a Rolling Stone</Titel>
+        <Interpret>Bob Dylan</Interpret>
+        <Album>Highway 61 Revisited</Album>
+        <Erscheinungsjahr>1965</Erscheinungsjahr>
+    </Song>
+    <Song>
+        <Titel>Smells Like Teen Spirit</Titel>
+        <Interpret>Nirvana</Interpret>
+        <Album>Nevermind</Album>
+        <Erscheinungsjahr>1991</Erscheinungsjahr>
+    </Song>
+    <Song>
+        <Titel>Whats Going On</Titel>
+        <Interpret>Marvin Gaye</Interpret>
+        <Album>Whats Going On</Album>
+        <Erscheinungsjahr>1971</Erscheinungsjahr>
+    </Song>
+    <Song>
+        <Titel>Hey Jude</Titel>
+        <Interpret>The Beatles</Interpret>
+        <Album>Hey Jude</Album>
+        <Erscheinungsjahr>1968</Erscheinungsjahr>
+    </Song>
+    <Song>
+        <Titel>Stairway to Heaven</Titel>
+        <Interpret>Led Zeppelin</Interpret>
+        <Album>Led Zeppelin IV</Album>
+        <Erscheinungsjahr>1971</Erscheinungsjahr>
+    </Song>
+    <Song>
+        <Titel>Good Vibrations</Titel>
+        <Interpret>The Beach Boys</Interpret>
+        <Album>Smiley Smile</Album>
+        <Erscheinungsjahr>1966</Erscheinungsjahr>
+    </Song>
+</SongRepository>
